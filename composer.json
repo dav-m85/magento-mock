@@ -1,0 +1,13 @@
+{
+    "name": "dav-m85/magento-mock",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Moreau",
+            "email": "dav.m85@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": ["Mage.php", "MageMockInterface.php"]
+    }
+}
