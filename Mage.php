@@ -471,9 +471,9 @@ class Mage
      *
      * @param Exception $e
      */
-    public static function logException(Exception $e)
+    public static function logException(\Exception $e)
     {
-        return self::getMageInstance()->logException(Exception);
+        return self::getMageInstance()->logException($e);
     }
 
     /**
@@ -502,7 +502,7 @@ class Mage
      *
      * @param Exception $e
      */
-    public static function printException(Exception $e, $extra = '')
+    public static function printException(\Exception $e, $extra = '')
     {
         return self::getMageInstance()->printException($e, $extra);
     }
